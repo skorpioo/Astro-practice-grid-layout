@@ -4,7 +4,7 @@ title: My Fourth Blog Post
 author: Astro Learner
 description: "This post will show up on its own!"
 image:
- url: "https://source.unsplash.com/featured/300x200"
+ url: "https://source.unsplash.com/featured/800x500"
  alt: "Featured image"
 pubDate: 2022-08-08
 tags: ["astro", "successes"]

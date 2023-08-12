@@ -5,7 +5,7 @@ pubDate: 2022-07-01
 description: "This is the first post of my new Astro blog."
 author: "Astro Learner"
 image:
- url: "https://source.unsplash.com/featured/300x200"
+ url: "https://source.unsplash.com/featured/800x500"
  alt: "Featured image"
 tags: ["astro", "blogging", "learning in public"]
 ---
