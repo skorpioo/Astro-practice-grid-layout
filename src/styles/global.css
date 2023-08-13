@@ -34,7 +34,29 @@ a {
 	text-decoration: none;
 }
 
+html.dark {
+	background-color: #0d0950;
+	color: #fff;
+}
+
+.dark .nav-links a {
+	color: #fff;
+}
+
+.dark li a {
+	color: #ff9776;
+}
+
 /* nav styles */
+header {
+	position: relative;
+}
+
+#themeToggle {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
 
 .hamburger {
 	padding-right: 20px;
@@ -78,6 +100,16 @@ a:focus {
 }
 
 @media screen and (min-width: 636px) {
+	header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	#themeToggle {
+		position: static;
+	}
+
 	.nav-links {
 		margin-left: 5em;
 		display: block;
